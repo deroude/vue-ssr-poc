@@ -1,7 +1,7 @@
 <template>
-  <ul class="themes-view">
+  <div class="themes-view">
           <theme v-for="theme in themes" :key="theme.id" :theme="theme"></theme>
-      </ul>
+      </div>
 </template>
 
 <script>
@@ -37,17 +37,15 @@ export default {
           console.log("themes loaded");
         })
         .catch(err => console.log("theme load failed: ", err));
-    
     }
   },
 
-  beforeDestroy() {},
+  beforeDestroy() {}
 };
 </script>
 
 <style lang="stylus">
 .themes-view {
   padding-top: 45px;
-  border: 1px solid red;
 }
 </style>
