@@ -30,8 +30,7 @@
     "vuex-router-sync": "^5.0.0",
     "contentful": "^6.1.0",
     "marked": "^0.3.19",
-    "highcharts": "^6.1.0",
-    "highcharts-vue": "^1.0.1"
+    "highcharts": "^6.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
